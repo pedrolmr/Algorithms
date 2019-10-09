@@ -9,10 +9,8 @@ def find_max_profit(prices):
   for i in range(0, len(prices)):
     for x in range(i + 1, len(prices)):
       if(prices[x] - prices[i] > max_diff):
-        max_diff=prices[x] - prices[i]
+        max_diff = prices[x] - prices[i]
   return max_diff
-
-
 
 if __name__ == '__main__':
   # This is just some code to accept inputs from the command line

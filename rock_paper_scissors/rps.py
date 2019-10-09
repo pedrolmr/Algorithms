@@ -7,7 +7,6 @@ def rock_paper_scissors(n):
   rps = ['rock', 'paper', 'scissors']
 
   def find_outcome(rounds_left, result):
-
     if rounds_left == 0:
       outcomes.append(result)
       return
